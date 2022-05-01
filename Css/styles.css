@@ -1,0 +1,168 @@
+body{
+    color:#40514E;
+    margin:0px;
+    text-align: center;
+    font-family:'Merriweather', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+    
+     /*16px==100%==1em  */
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+    
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+hr{
+    
+    border-color:lightslategray;
+    border-style: dotted none none none;
+    width:4%;
+    border-width: 8px;
+    margin:100px auto;
+    
+}
+p{
+    line-height: 2;
+}
+a{
+    color:#11999E;
+    font-family: 'Montserrat',sans-serif;
+    margin:10px 20px;
+    text-decoration: none;
+
+
+}
+a:hover{
+    color:#EAF6F6;
+    
+}
+.intro{
+    /* padding: 10px; */
+    /* margin: auto 20px;
+    line-height: 2; */
+    width:40%;
+    margin:auto;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top:100px ;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.middle-container{
+    margin:100px 0px;
+
+}
+.bottom-container{
+    padding:50px 0px 20px;
+    background-color: #66BFBF;
+    
+    
+}
+
+.Ending{
+    
+    color:#EAF6F6;
+    font-size:0.75rem;
+    padding: 20px 0px 0px;
+
+
+}
+.cloud{
+    height: 100px;
+    width:200px;
+}
+.mountain{
+    height: 400px;
+    
+    
+}
+.cloud1{
+    position: absolute;
+    top:40px;
+    right: 300px;; 
+    
+    
+}
+.cloud2{
+    position: absolute;
+    bottom: 300px;
+    left:250px;
+    
+}
+.pro {
+    text-decoration: underline;
+}
+.profilepic{
+    height: 150px;
+    width:150px;
+}
+.skillpic1{
+    width: 25%;
+    margin-right: 40px;
+    float: left;
+    /* if we want to remove the float for a paticular segment say a paragraph then we just enlose it in class and use clear
+    like here it will be clear : left */
+}
+.skillpic2{
+    width: 25%;
+    float: right;
+    margin-left: 40px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.contact_me_content{
+    width:30%;
+    margin:40px auto 60px;
+}
+
+
+/* ******Inline Display property********* */
+/* usually elements like <p>,<h1> etc take the whole line and don't allow other elements to sit on the same line 
+this problem can be dealt in many ways one way is to use the <span> tag another is to change display to inline but the dmerit of
+using inline tags like span or changing the display to inline we can't change the width for element it will be same as the size
+of content inside it so basically the best way to deal with this is to set the display to inline-block  */
